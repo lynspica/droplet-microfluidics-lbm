@@ -11,5 +11,7 @@ The animation below shows the transport of the droplets inside the microfluidic 
 and the color bar denotes velocity of the base fluid, and therefore maximum value is present at the interface. For the simulation details, two droplets are placed at the beginning of the channels. For t < 1300, a flow $\Delta p > 0$ is introduced to the fluid at the entrances of two channels to allow the droplets to meet at the junction. As the coalescence is observed, the flow is resetted $\Delta p = 0$ to let the larger droplet undergo relaxation, for 1300 < t < 1800. After t > 1800, a reversed-flow $\Delta p < 0$ is introduced to demonstrate splitting the larger droplet into two parts.
 
 <p align="center">
+    <img src="[channel.gif](https://github.com/lynspica/droplet-microfluidics-lbm/blob/main/figs/channel.gif)" alt="animated" />
+
 ![](https://github.com/lynspica/droplet-microfluidics-lbm/blob/main/figs/channel.gif)
 </p>
