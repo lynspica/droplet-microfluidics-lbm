@@ -219,10 +219,12 @@ for cycle = 1:maxT
            [imind,cm] = rgb2ind(im,256);
            imwrite(imind,cm,filename,'gif','DelayTime',0.01, 'Loopcount',inf);
        else
+           if cycle ~= 5
            frame = getframe(f);
            im = frame2im(frame);
            [imind,cm] = rgb2ind(im,256);
            imwrite(imind,cm,filename,'gif','DelayTime',0.01, 'WriteMode','append');
+           end
        end
    end
 end
