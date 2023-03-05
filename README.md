@@ -1,5 +1,5 @@
 # droplet-microfluidics-lbm
-Modeling of droplet dynamics using multi-phase lattice Boltzmann method
+## **Modeling of droplet dynamics using multi-phase lattice Boltzmann method**
 
 This project presents the coalescence and splitting dynamics of droplets for two-phase fluids. The
 Shan-Chen model (10.1103/PhysRevE.47.1815) is used to capture the interaction between the different phases, including the transfer of
